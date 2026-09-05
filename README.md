@@ -21,10 +21,11 @@ Crucially, it implements **Deterministic AI Bounding**. To prevent LLM financial
 1. **Clone the repository and install dependencies:**
    ```bash
    pip install -r requirements.txt
-Generate the synthetic test data (50 rows of fuzzy financial records):
-
-python generate_data.py
-
-Launch the Reconciler Edge Dashboard:
-
+2.Generate the synthetic test data (50 rows of fuzzy financial records):
+ ```bash
+ python generate_data.py
+```
+3.Launch the Reconciler Edge Dashboard:
+```bash
 python -m streamlit run frontend.py
+```
